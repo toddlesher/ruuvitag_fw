@@ -1,0 +1,5 @@
+# Segger Embedded Studio
+
+Output/
+*.emSession
+*.jlink
