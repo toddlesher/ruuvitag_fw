@@ -1,0 +1,9 @@
+<!DOCTYPE Board_Memory_Definition_File>
+<root name="nRF52832_xxAA">
+  <MemorySegment name="FLASH" start="0x0001F000" size="0x56000" access="ReadOnly" />
+  <MemorySegment name="RAM" start="0x20002C00" size="0xD380" access="Read/Write" />
+  <MemorySegment name="NOINIT" start="0x2000FF80" size="0x80" access="Read/Write" />
+  <MemorySegment name="BOOTLOADER_SETTINGS" start="0x0007F000" size="0x1000" access="ReadOnly" />
+  <MemorySegment name="BOOTLOADER_MBR_PARAMS" start="0x0007E000" size="0x1000" access="Read/Write" />
+  <MemorySegment name="UICR_BOOTLOADER" start="0x10001014" size="0x4" access="ReadOnly" />
+</root>
