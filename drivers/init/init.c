@@ -25,7 +25,7 @@
 #include "bme280_temperature_handler.h"
 #include "lis2dh12.h"
 #include "lis2dh12_acceleration_handler.h"
-#include "nfc.h"
+//#include "nfc.h"
 #include "pin_interrupt.h"
 #include "pwm.h"
 #include "watchdog.h"
@@ -102,7 +102,7 @@ init_err_code_t init_nfc(void)
     init_err_code_t err_code = NRF_SUCCESS;
 
     //Enable NFC with empty data message
-    err_code = nfc_init(NULL, 0);
+//    err_code = nfc_init(NULL, 0);
 
     NRF_LOG_INFO("NFC init\r\n");
     return (NRF_SUCCESS == err_code) ? 0 : 1;
